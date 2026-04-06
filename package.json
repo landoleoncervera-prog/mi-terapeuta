@@ -2,11 +2,12 @@
   "name": "mi-terapeuta",
   "version": "1.0.0",
   "scripts": {
-    "build": "next build",
     "start": "next start",
+    "build": "next build",
     "dev": "next dev"
   },
   "dependencies": {
-    "next": "14.2.5"
+    "next": "^14.2.5",
+    "@prisma/client": "^5.12.0"
   }
 }
